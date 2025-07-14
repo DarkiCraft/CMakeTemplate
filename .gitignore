@@ -1,31 +1,104 @@
-*.d
-
-*.slo
-*.lo
+# --- Build Artifacts ---
+build/
+build-*/
+cmake-build-*/
+out/
+bin/
+lib/
 *.o
 *.obj
-
-*.gch
-*.pch
-
-*.ilk
-
-*.pdb
-
 *.so
-*.dylib
-*.dll
-
-*.mod
-*.smod
-
-*.lai
-*.la
 *.a
-*.lib
-
+*.dll
+*.dylib
 *.exe
 *.out
-*.app
+*.run
 
-*.dwo
+# --- CMake ---
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+install_manifest.txt
+CTestTestfile.cmake
+Testing/
+compile_commands.json
+
+# --- IDEs & Editors ---
+
+# VSCode
+.vscode/
+.code-workspace
+
+# CLion / JetBrains
+.idea/
+*.iml
+cmake-build-*/
+
+# Visual Studio
+*.sln
+*.vcxproj*
+*.pdb
+*.user
+*.ipch
+*.tlog
+*.log
+*.opensdf
+*.sdf
+*.db
+*.cache
+*.ilk
+
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.xccheckout
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+*.xcworkspace
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# --- Backup / Temp ---
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+*.old
+*.orig
+
+# --- Misc ---
+*.log
+*.trace
+*.stackdump
+core
+vgcore.*
+
+# --- Git ---
+*.patch
+*.rej
+*.diff
+*.orig
+*.gch
+
+# --- Package Managers ---
+# Ignore dependencies if your project fetches them into the repo
+vendor/
+deps/
+external/
+
+# --- Conan / vcpkg / CPM ---
+.conan/
+conanfile.lock
+vcpkg_installed/
+vcpkg_build/
+_cpm_packages/
