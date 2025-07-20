@@ -2,7 +2,7 @@
 
 [![Build](https://img.shields.io/badge/build-passing-brightgreen)]()
 [![Tests](https://img.shields.io/badge/tests-passing-brightgreen)]()
-[![CMake](https://img.shields.io/badge/CMake-3.10+-blue)]()
+[![CMake](https://img.shields.io/badge/CMake-3.11+-blue)]()
 [![Language](https://img.shields.io/badge/language-C%2B%2B-blue)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
